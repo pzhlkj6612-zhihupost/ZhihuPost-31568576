@@ -137,15 +137,15 @@
 
 准备一段素材，并将它放入一个合成中：
 
-![]()
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-727d2731f1910caf235a4355bcd876c7.jpg)
 
 接着，右击代表那段素材的图层-`时间`-`启用时间重映射`（Ctrl+Alt+T），能看到该图层下方出现了属性`时间重映射`的两个关键帧，头尾各一个；而且图层的“时间范围”变为无限远：
 
-![]()
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-a294897861d6d8caede21452f6aa1cf1.jpg)
 
-现在按住Alt，单击“时间重映射”前的秒表，调出表达式编辑器：
+现在按住**Alt**，单击“时间重映射”前的秒表，调出表达式编辑器：
 
-![]()
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3980046a8df79964374f86b4192c3bca.jpg)
 
 单击“表达式语言菜单”（`表达式: 时间重映射`右侧的圆形白底指向右侧的黑色箭头）-`Property`-`LoopOut(Type = "cycle", numKeyframes = 0)`，
 或者直接输入：
@@ -153,11 +153,17 @@
 value = loopOut(Type = "cycle", numKeyframes = 0);
 ```
 
-![]()
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-43694dd8a342f0a1bb40a0a02fe4fb5c.jpg)
 
-现在，任意改变图层的持续时间并预览，就能够发现已经有循环播放的效果了。最后，改变合成的工作区域，导出视频即可。
+现在，任意改变图层的持续时间并预览，就能够发现已经有循环播放的效果了：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-4a0b5a81771687c55cce66f37eba44ff.jpg)
+
+最后，改变合成的工作区域，导出视频即可。
 
 * 对于合成的循环
+
+循环合成的话，与循环素材的大体思想是一致的，但需要一些额外的操作。
 
 ----
 
