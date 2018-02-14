@@ -31,7 +31,7 @@
 
 * [概述](#%E6%A6%82%E8%BF%B0)
 * [可以用循环做什么](#%E5%8F%AF%E4%BB%A5%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%81%9A%E4%BB%80%E4%B9%88)
-* 一些教程
+* 先看教程
 * [在Ae里循环](#%E5%9C%A8ae%E9%87%8C%E5%BE%AA%E7%8E%AF)
 * [导出](#%E5%AF%BC%E5%87%BA)
 * [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
@@ -78,13 +78,35 @@
 
 ----
 
-# 一些教程
+# 先看教程
 
 写了好一会儿，我发现用文字、图片、动画都不能将“循环”讲清楚，于是先来看前辈们的教程：
+
+* 通过剪辑与合成，做出循环播放的GIF动画
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3919ed6694523337330ae4d95417fe74.jpg)
 
 《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e)。
+
+注意，这个教程在导出GIF那一块略过了一些要点，也有一些不正确的地方。关于导出GIF，可以查看我的文章《[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)》。
+
+<br/>
+
+* 使用表达式让元素的属性循环变化
+
+在这里，属性指某个元素的“位置”、“缩放”、“不透明度”等等。
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-5f3eb9884b90c5ae578a27bda9d7bad2.gif)
+
+《[实用AE表达式推荐（二） - 知乎](https://zhuanlan.zhihu.com/p/27601294)》；
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-c6ca6839b3118279cea793169862bf99.gif)
+
+《[MG实用技巧：Loop循环表达式运用|平面|教程|D27\_ - 原创文章 - 站酷 (ZCOOL)](http://www.ui.cn/detail/163636.html)》；
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-750dfafa2ad5253c04472bce903110a5.gif)
+
+《[AE 表达式应用——萤火虫-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/163636.html)》。
 
 ----
 
