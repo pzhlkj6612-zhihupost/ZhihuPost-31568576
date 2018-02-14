@@ -43,6 +43,10 @@
 
 # 概述
 
+写这篇文章的原因是，我之前答题跑偏了。
+
+我发现：要导出无限循环的动画，最终想得到的极大可能会是GIF动画；但如果仅仅是想让一段素材在另一段素材里循环播放个几百来次，又几乎不需要琢磨GIF相关的东西，于是把内容拆开了，写一写，试试看。
+
 <br/>
 
 文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）](https://www.bilibili.com/video/av9198307/)》
@@ -55,7 +59,9 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f03e4fad7249035dc2410a6a89630267.gif)
 
-这里边用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)，
+这段动画，在制作时使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)；
+
+经过调整，这段动画被制成了循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们之间所共有的思想，能指导你做出较高质量的循环动画。
 
 ----
 
