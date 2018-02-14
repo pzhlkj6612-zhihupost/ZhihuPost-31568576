@@ -31,6 +31,7 @@
 
 * [概述](#%E6%A6%82%E8%BF%B0)
 * [可以用循环做什么](#%E5%8F%AF%E4%BB%A5%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%81%9A%E4%BB%80%E4%B9%88)
+* 一些教程
 * [在Ae里循环](#%E5%9C%A8ae%E9%87%8C%E5%BE%AA%E7%8E%AF)
 * [导出](#%E5%AF%BC%E5%87%BA)
 * [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
@@ -59,7 +60,13 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-785b9198f9bc33fa7f569b1df1ab756c.jpg)
 
-[【雷军/初音】New Friend\_鬼畜调教\_鬼畜\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av8530045/)
+《[【雷军/初音】New Friend\_鬼畜调教\_鬼畜\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av8530045/)》
+
+其中的：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-1c9f49b2bbdba79183268c792aeabd09.gif)
+
+<br/>
 
 再比如：
 
@@ -68,6 +75,16 @@
 这段动画，在制作时使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)；
 
 经过调整，这段动画被制成了循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们之间所共有的思想，能指导你做出较高质量的循环动画。
+
+----
+
+# 一些教程
+
+写了好一会儿，我发现用文字、图片、动画都不能将“循环”讲清楚，于是先来看前辈们的教程：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3919ed6694523337330ae4d95417fe74.jpg)
+
+《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e)。
 
 ----
 
