@@ -135,7 +135,7 @@
 
 * 对于导入素材的循环
 
-准备一段素材，并将它放入一个合成中：
+准备一段欲做循环效果的素材，将它放入一个合成中：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-727d2731f1910caf235a4355bcd876c7.jpg)
 
