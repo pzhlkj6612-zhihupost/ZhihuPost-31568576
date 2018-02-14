@@ -87,9 +87,9 @@
 
 * 通过剪辑与合成，做出循环播放的GIF动画
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3919ed6694523337330ae4d95417fe74.jpg)
+《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e)：
 
-《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e)。
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3919ed6694523337330ae4d95417fe74.jpg)
 
 注意，这个教程在“导出GIF”那一块略过了一些要点，也有一些不正确的地方。关于导出GIF，可以查看我的文章《[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)》。
 
@@ -99,21 +99,25 @@
 
 在这里，“属性”指某个元素的`位置`、`缩放`、`不透明度`等等。
 
+<br/>
+
+首先可以看《[实用AE表达式推荐（二） - 知乎](https://zhuanlan.zhihu.com/p/27601294)》的“**六、LOOPIN&LOOPOUT**”节，做一个简单了解：
+
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-5f3eb9884b90c5ae578a27bda9d7bad2.gif)
 
-首先可以看《[实用AE表达式推荐（二） - 知乎](https://zhuanlan.zhihu.com/p/27601294)》的“六、LOOPIN&LOOPOUT”节，做一个简单了解；
-
 <br/>
+
+接着，《[MG实用技巧：Loop循环表达式运用|平面|教程|D27\_ - 原创文章 - 站酷 (ZCOOL)](http://www.ui.cn/detail/163636.html)》：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-c6ca6839b3118279cea793169862bf99.gif)
 
-接着，《[MG实用技巧：Loop循环表达式运用|平面|教程|D27\_ - 原创文章 - 站酷 (ZCOOL)](http://www.ui.cn/detail/163636.html)》。这个教程如果最终能够循环起来（一点点调整）就很好看了；
+顺便说一句，这个教程如果最终能够循环起来（一点点调整）就很好看了；
 
 <br/>
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-750dfafa2ad5253c04472bce903110a5.gif)
+如果前边的你都跟着做了，那么这里还有一个更高级的教程：《[AE 表达式应用——萤火虫-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/163636.html)》：
 
-如果前边的你都跟着做了，那么这里还有一个更高级的教程：《[AE 表达式应用——萤火虫-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/163636.html)》。
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-750dfafa2ad5253c04472bce903110a5.gif)
 
 ----
 
@@ -127,7 +131,33 @@
 
 就像文章概述里所说，你可能有这样的需求：“想让一段素材在另一段素材里循环播放个几百来次”，那么你就需要接触到“**[时间重映射](https://helpx.adobe.com/cn/after-effects/using/time-stretching-time-remapping.html#time_remapping)**”。
 
-.
+接下来，介绍“循环素材”的两种情况：
+
+* 对于导入素材的循环
+
+准备一段素材，并将它放入一个合成中：
+
+![]()
+
+接着，右击代表那段素材的图层-`时间`-`启用时间重映射`（Ctrl+Alt+T），能看到该图层下方出现了属性`时间重映射`的两个关键帧，头尾各一个；而且图层的“时间范围”变为无限远：
+
+![]()
+
+现在按住Alt，单击“时间重映射”前的秒表，调出表达式编辑器：
+
+![]()
+
+单击“表达式语言菜单”（`表达式: 时间重映射`右侧的圆形白底指向右侧的黑色箭头）-`Property`-`LoopOut(Type = "cycle", numKeyframes = 0)`，
+或者直接输入：
+``` JavaScript
+value = loopOut(Type = "cycle", numKeyframes = 0);
+```
+
+![]()
+
+现在，任意改变图层的持续时间并预览，就能够发现已经有循环播放的效果了。最后，改变合成的工作区域，导出视频即可。
+
+* 对于合成的循环
 
 ----
 
@@ -176,6 +206,7 @@
 # 未解决的问题
 
 * [The LoopMaker  - aescripts.com](https://aescripts.com/the-loopmaker/)是否好用？
+* Ae中图层在时间轴内的“时间范围”角标，学名叫什么？
 
 ----
 
