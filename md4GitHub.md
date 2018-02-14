@@ -153,13 +153,15 @@
 value = loopOut(Type = "cycle", numKeyframes = 0);
 ```
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-43694dd8a342f0a1bb40a0a02fe4fb5c.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-5773844420ff7dfef90cbea647340cbf.jpg)
 
 现在，任意改变图层的持续时间并预览，就能够发现已经有循环播放的效果了：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-4a0b5a81771687c55cce66f37eba44ff.jpg)
 
 最后，改变合成的工作区域，导出视频即可。
+
+<br/>
 
 * 对于合成的循环
 
