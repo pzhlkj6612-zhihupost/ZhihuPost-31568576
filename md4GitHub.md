@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPaper-31568576/master/pic_zhimg_com/v2-ed5f3ea5b4503c6af2ea19a75dba2db9.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-ed5f3ea5b4503c6af2ea19a75dba2db9.jpg)
 
 禁止转载。
 
@@ -12,7 +12,7 @@
 
 本文章也存在于GitHub仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPaper-31568576](https://github.com/pzhlkj6612/ZhihuPaper-31568576)
+[https://github.com/pzhlkj6612/ZhihuPost-31568576](https://github.com/pzhlkj6612/ZhihuPost-31568576)
 
 <br/>
 
