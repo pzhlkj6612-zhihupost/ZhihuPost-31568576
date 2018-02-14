@@ -74,7 +74,7 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f03e4fad7249035dc2410a6a89630267.gif)
 
-这段动画，在制作时使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)；
+制作这段动画，我使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)；
 
 经过调整，这段动画被制成了循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们之间所共有的思想，能指导你做出较高质量的循环动画。
 
@@ -124,21 +124,47 @@
 
 # 导出无限循环的动画
 
+如果你想导出GIF动画，就直接看我的文章《[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)》。
+
+呃，除了GIF动画，我实在想不到还能怎么导出能无限循环的动画。
+
 ----
 
 # 异常处理
+
+当出现“表达式错误”的提示时，请检查你所编写的代码：
+
+* 是否错误地使用了全角符号；
+* 是否少写了`.`、`""`、`()`、`[]`、`{}`等符号；
+
+更多的还是请你去参考官方文档以及JS标准语法。
 
 <br/>
 
 # 注意事项
 
+* Ae中的表达式并不是标准的JS，而是JavaScript eXtension(JSX)，语法较为“宽松”，有一些代码可以省略不写；
+* 但作为学习者，尽量还是完整地去写每一行代码。比如语句结束记得加分号；给属性赋值时带上`value =`。这些都是好习惯；
+* 有了好习惯，一旦你要开始查错（Debug），或者读别人的代码，效率就会比较高了；
+* 最后，学习英语、编程，益处很大。
+
 <br/>
 
 # 未解决的问题
 
+* 有没有脚本能直接实现这些操作呢？
+
 ----
 
 # 推荐
+
+* Ae表达式官方文档：[Expression language in After Effects](https://helpx.adobe.com/after-effects/using/expression-language-reference.html)
+* 专栏推荐：[AE高手秘籍 - After Effects经验技巧干货汇总 - 知乎专栏](https://zhuanlan.zhihu.com/chuangying)
+* 专栏推荐：[Motion Fun - 动效设计，AE脚本，Sketch插件 - 知乎专栏](https://zhuanlan.zhihu.com/motiondesigner)
+* JS入门教程：[JavaScript 教程 | 菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
+* 给Ae和C4D写脚本和插件的公司：[aescripts](https://aescripts.com/)
+* 编辑器：[Sublime Text - A sophisticated text editor for code, markup and prose](https://www.sublimetext.com/)
+* 开源社区：[GitHub](https://github.com/)
 
 ----
 
@@ -146,11 +172,13 @@
 
 * 待更新的
 
+暂无
+
 <br/>
 
 * 参考
 
-[关于AE中进行循环动画的几种方法_百度文库](https://wenku.baidu.com/view/d31d656daf1ffc4ffe47ac2e.html)
+[关于AE中进行循环动画的几种方法\_百度文库](https://wenku.baidu.com/view/d31d656daf1ffc4ffe47ac2e.html)
 
 [How To Loop A Video In Adobe After Effects](https://www.surfacedstudio.com/blog/after-effects-how-to-loop-a-video)
 
@@ -158,9 +186,9 @@
 
 [实用AE表达式推荐（二） - 知乎](https://zhuanlan.zhihu.com/p/27601294)
 
-[AE循环的表达式是什么_百度知道](https://zhidao.baidu.com/question/300528586.html)
+[AE循环的表达式是什么\_百度知道](https://zhidao.baidu.com/question/300528586.html)
 
-[求助 怎样让AE里的一个合成无限循环_百度知道](https://zhidao.baidu.com/question/557190200523865692.html)
+[求助 怎样让AE里的一个合成无限循环\_百度知道](https://zhidao.baidu.com/question/557190200523865692.html)
 
 [After Effects 有什么技巧让你相见恨晚？ - 知乎](https://www.zhihu.com/question/28137864)
 
