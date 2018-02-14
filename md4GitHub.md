@@ -34,6 +34,7 @@
 * [先看教程](#%E5%85%88%E7%9C%8B%E6%95%99%E7%A8%8B)
 * [复习与补充](#%E5%A4%8D%E4%B9%A0%E4%B8%8E%E8%A1%A5%E5%85%85)
 * [导出无限循环的动画](#%E5%AF%BC%E5%87%BA%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF%E7%9A%84%E5%8A%A8%E7%94%BB)
+* 你还可以尝试...
 * [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
 * [注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
 * [未解决的问题](#%E6%9C%AA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98)
@@ -46,13 +47,13 @@
 
 写这篇文章的原因是，我之前答题跑偏了。
 
-我发现：要导出无限循环的动画，最终想得到的极大可能会是GIF动画；但如果仅仅是想让一段素材在另一段素材里循环播放个几百来次，又几乎不需要琢磨GIF相关的东西，于是把内容拆开了，写一写，试试看。
+要导出无限循环的动画，一般来说都是想得到GIF动画；但如果仅仅是想让一段素材在另一段素材里循环播放个几百来次，就几乎不需要琢磨GIF那些东西，于是我把内容拆开了，写一写，试试看。
 
-其实，网络上已经有许多关于“Ae 循环”的内容了，所以我会引用前辈们的各种教程，省下篇幅，讲清原理。
+其实，网络上已经有许多关于“Ae 循环”的内容了，所以我会引用前辈们的各种教程，省下篇幅，再做补充说明。
 
 <br/>
 
-文中用到的视频素材来自：《[【大花豹】极乐净土](https://www.bilibili.com/video/av10397269/)》《[50帧又何妨（25FPS已重传）](https://www.bilibili.com/video/av9198307/)》
+文中用到的视频素材来自：《[50帧又何妨（25FPS已重传）](https://www.bilibili.com/video/av9198307/)》
 
 ----
 
@@ -76,7 +77,7 @@
 
 制作这段动画，我使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)；
 
-经过调整，这段动画被制成了循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们之间所共有的思想，能指导你做出较高质量的循环动画。
+经过调整，这段动画被制成了能够循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们所共有的思想，能指导你做出较高质量的循环动画。
 
 ----
 
@@ -96,7 +97,7 @@
 
 * 使用表达式让元素的属性循环变化
 
-在这里，属性指某个元素的“位置”、“缩放”、“不透明度”等等。
+在这里，“属性”指某个元素的`位置`、`缩放`、`不透明度`等等。
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-5f3eb9884b90c5ae578a27bda9d7bad2.gif)
 
@@ -120,13 +121,35 @@
 
 教程看完了，我来做一些补充。
 
+<br/>
+
+在上述的有关“表达式”的教程里，都是在对某些个很“具象”的属性的值（的关键帧）进行循环。那么时间呢？
+
+就像文章概述里所说，你可能有这样的需求：“想让一段素材在另一段素材里循环播放个几百来次”，那么你就需要接触到“**[时间重映射](https://helpx.adobe.com/cn/after-effects/using/time-stretching-time-remapping.html#time_remapping)**”。
+
+.
+
 ----
 
 # 导出无限循环的动画
 
-如果你想导出GIF动画，就直接看我的文章《[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)》。
+如果你想导出GIF动画，就直接看我的[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)。
 
 呃，除了GIF动画，我实在想不到还能怎么导出能无限循环的动画。
+
+----
+
+# 你还可以尝试...
+
+* 将下边这两个教程里所做的东西制成流畅的、能够循环播放的GIF动画：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-9cf6b4e2915e592e8e0ac5f5f84cf332.jpg)
+
+[【After Effects教程】干货实用AE实例教程合集【doyoudo出品】\(20\)\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av4612737/index_20.html#page=20)
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-2027ac109d1d600f8fba953c27e77921.jpg)
+
+[【小莫讲AE】根本停不下来的旋转背景\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av12351097/)
 
 ----
 
@@ -152,7 +175,7 @@
 
 # 未解决的问题
 
-* 有没有脚本能直接实现这些操作呢？
+* [The LoopMaker  - aescripts.com](https://aescripts.com/the-loopmaker/)是否好用？
 
 ----
 
@@ -161,9 +184,21 @@
 * Ae表达式官方文档：[Expression language in After Effects](https://helpx.adobe.com/after-effects/using/expression-language-reference.html)
 * 专栏推荐：[AE高手秘籍 - After Effects经验技巧干货汇总 - 知乎专栏](https://zhuanlan.zhihu.com/chuangying)
 * 专栏推荐：[Motion Fun - 动效设计，AE脚本，Sketch插件 - 知乎专栏](https://zhuanlan.zhihu.com/motiondesigner)
+
+<br/>
+
+* JvanX的Duik骨骼绑定教程：《[\[MG动画教程\]财神循环动画制作\_野生技术协会\_科技_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)》
+* 老鹰的MG教程：《[01【MG系列教学】MG动画一定要学的AE脚本-1\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3386824/)》
+
+<br/>
+
+* 这里“有好多好多教程”：[doyoudo](http://doyoudo.com/)
+
+<br/>
+
 * JS入门教程：[JavaScript 教程 | 菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
 * 给Ae和C4D写脚本和插件的公司：[aescripts](https://aescripts.com/)
-* 编辑器：[Sublime Text - A sophisticated text editor for code, markup and prose](https://www.sublimetext.com/)
+* 代码编辑器：[Sublime Text - A sophisticated text editor for code, markup and prose](https://www.sublimetext.com/)
 * 开源社区：[GitHub](https://github.com/)
 
 ----
