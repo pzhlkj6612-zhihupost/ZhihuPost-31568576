@@ -329,6 +329,16 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 ----
 
+本文Alpha之前：
+
+[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994)提供了全文检查；
+
+<br/>
+
+[@墨子 2200MHz](http://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
+
+<br/>
+
 原答案发布于：2017.05.11
 
 原答案修改于：2017.11.30
