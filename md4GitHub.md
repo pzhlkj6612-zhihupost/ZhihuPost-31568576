@@ -47,7 +47,7 @@
 
 写这篇文章的原因是，我之前答题跑偏了。
 
-要导出无限循环的动画，一般来说都是想得到GIF动画；但如果仅仅是想让一段素材在另一段素材里循环播放个几百来次，就几乎不需要琢磨GIF那些东西，于是我把内容拆开了，写一写，试试看。
+要导出无限循环的动画，一般来说都是想得到GIF动画；但如果仅仅是想让一段视频在另一段视频里循环播放个几百来次，就几乎不需要琢磨GIF那些东西，于是我把内容拆开了，写一写，试试看。
 
 其实，网络上已经有许多关于“Ae 循环”的内容了，所以我会引用前辈们的各种教程，省下篇幅，再做补充说明。
 
@@ -129,11 +129,29 @@
 
 在上述的有关“表达式”的教程里，都是在对某些个很“具象”的属性的值（的关键帧）进行循环。那么时间呢？
 
-就像文章概述里所说，你可能有这样的需求：“想让一段素材在另一段素材里循环播放个几百来次”，那么你就需要接触到“**[时间重映射](https://helpx.adobe.com/cn/after-effects/using/time-stretching-time-remapping.html#time_remapping)**”。
+就像文章概述里所说，你可能有这样的需求：“想让一段视频在另一段视频里循环播放个几百来次”，那么你就需要接触到“**[时间重映射](https://helpx.adobe.com/cn/after-effects/using/time-stretching-time-remapping.html#time_remapping)**”。
 
-接下来，介绍“循环素材”的两种情况：
+接下来，介绍两种“循环素材”和一种“循环合成”的方法：
 
-* 对于导入素材的循环
+* 对于素材的循环 - 解释素材
+
+这是最简单的办法。先准备一段素材，不用创建合成，直接右键素材-`解释素材`-`主要`：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-c565a3b5271400dfaf56f6d02f3e197b.jpg)
+
+在打开的`解释素材`对话框中，找到`其他选项`区域-`循环`，设置一个循环次数（1~9999），并单击`确定`：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-baa402e4fba36b0d0ae7b0f91549509e.jpg)
+
+现在，你的素材的持续时间已经发生了变化。试着用调整过的素材创建合成并预览画面，就能发现已经有了循环的效果：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-66aaf9eedda33ba07e2f43ce6f0431be.jpg)
+
+注意，图中的合成只有3小时长，因为[Ae最高只支持3小时长度的合成](https://helpx.adobe.com/cn/after-effects/using/composition-basics.html#composition_settings)，如果你需要更长时间的循环，就将合成裁剪好，导出Ae后再导入Pr，就可以从Pr里得到大于3小时的视频了。
+
+<br/>
+
+* 对于素材的循环 - 表达式
 
 准备一段欲做循环效果的素材，将它放入一个合成中：
 
@@ -143,7 +161,7 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-a294897861d6d8caede21452f6aa1cf1.jpg)
 
-现在按住**Alt**，单击“时间重映射”前的秒表，调出表达式编辑器：
+现在按住**Alt**，单击`时间重映射`前的秒表，调出表达式编辑器：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3980046a8df79964374f86b4192c3bca.jpg)
 
@@ -175,7 +193,35 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
+拖一个合成到另一个更长的合成里，然后右击代表那段合成的图层-`时间`-`启用时间重映射`（Ctrl+Alt+T）：
 
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-e686b88be0c84cac3939c28cf1cb3c3a.jpg)
+
+现在你可以去看看尾部关键帧处的画面是什么：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-bc0a3a181240eeae764274eabe5f6a43.jpg)
+
+空的？！往前一帧呢：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-d1e4504d3643f492d767077506fb9d4f.jpg)
+
+如果你不管它，继续添加表达式，延长持续时间，你就会发现每到结尾时画面都会闪一下（空一帧），类似这样：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-0974ae16f5d5368d8ecb4ddff52898d8.gif)
+
+<br/>
+
+这种现象的原因我还不太清楚，但有规避问题的方法：
+
+添加时间重映射后，你需要手动寻找你想循环的时间范围的出点，也就是循环里的结尾。一般情况下，你是想让那个合成整个循环起来，所以找到有画面的最后一帧（也就是有关键帧的前一帧）。然后，给这一帧打上关键帧（用秒表图标左侧那个“在当前时间添加或移除关键帧”），
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-92e3355ec94ee5aa13a794ec9307cc77.jpg)
+
+再将后一帧的关键帧删掉，现在`时间重映射`属性仅有两个关键帧：
+
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-344ef09abbe7077ecbb1b8cd0bbe9926.jpg)
+
+现在按住**Alt**，单击`时间重映射`前的秒表，调出表达式编辑器，像之前那样添加`LoopOut`表达式，再延长图层持续时间，搞定。
 
 ----
 
@@ -183,7 +229,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 如果你想导出GIF动画，就直接看我的[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)。
 
-呃，除了GIF动画，我实在想不到还能怎么导出能无限循环的动画。
+如果只是导出为一段视频，那就要记得Alpha通道的事情。因为你有可能需要有着透明背景的视频，所以需要使用支持RGB+Alpha的格式与编码器。
 
 ----
 
@@ -225,6 +271,9 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 * [The LoopMaker  - aescripts.com](https://aescripts.com/the-loopmaker/)是否好用？
 * Ae中图层在时间轴内的“时间范围”角标，学名叫什么？
+* [用AE做gif，粒子效果该怎么循环？ - 知乎](https://www.zhihu.com/question/60129024)
+* 合成里的合成，为何时间重映射会空一帧出来？
+* [`时间重映射`的快捷键是RR，添加或删除关键帧的快捷键是Alt+Shift+RR，这怎么按？](https://helpx.adobe.com/cn/after-effects/using/keyboard-shortcuts-reference.html#showing_properties_and_groups_in_the_timeline_panel_keyboard_shortcuts#showing_properties_and_groups_in_the_timeline_panel_keyboard_shortcuts)
 
 ----
 
@@ -236,7 +285,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-* JvanX的Duik骨骼绑定教程：《[\[MG动画教程\]财神循环动画制作\_野生技术协会\_科技_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)》
+* JvanX的Duik骨骼绑定+GIF动画教程：《[\[MG动画教程\]财神循环动画制作\_野生技术协会\_科技_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)》
 * 老鹰的MG教程：《[01【MG系列教学】MG动画一定要学的AE脚本-1\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3386824/)》
 
 <br/>
@@ -271,6 +320,8 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 [实用AE表达式推荐（二） - 知乎](https://zhuanlan.zhihu.com/p/27601294)
 
 [AE循环的表达式是什么\_百度知道](https://zhidao.baidu.com/question/300528586.html)
+
+[循环素材项目 - 在 After Effects 中使用素材项目](https://helpx.adobe.com/cn/after-effects/using/footage-items.html#loop_a_footage_item)
 
 [求助 怎样让AE里的一个合成无限循环\_百度知道](https://zhidao.baidu.com/question/557190200523865692.html)
 
