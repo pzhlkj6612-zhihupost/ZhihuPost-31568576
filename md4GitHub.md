@@ -147,13 +147,13 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-66aaf9eedda33ba07e2f43ce6f0431be.jpg)
 
-注意，图中的合成只有3小时长，因为[Ae最高只支持3小时长度的合成](https://helpx.adobe.com/cn/after-effects/using/composition-basics.html#composition_settings)，如果你需要更长时间的循环，就将合成裁剪好，导出Ae后再导入Pr，就可以从Pr里得到大于3小时的视频了。
+注意，图中的合成只有3小时长，因为[Ae最高只支持3小时长度的合成](https://helpx.adobe.com/cn/after-effects/using/composition-basics.html#composition_settings)，如果你需要更长时间的循环，就将合成裁剪好，导出Ae后再导入Pr，就可以在Pr里制作更长的视频了。
 
 <br/>
 
 * 对于素材的循环 - 表达式
 
-准备一段欲做循环效果的素材，将它放入一个合成中：
+将要循环的合成放入合成中：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-727d2731f1910caf235a4355bcd876c7.jpg)
 
@@ -211,9 +211,9 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-这种现象的原因我还不太清楚，但有规避问题的方法：
+出现这种现象的原因我还不太清楚，但有规避问题的方法：
 
-添加时间重映射后，你需要手动寻找你想循环的时间范围的出点，也就是循环的结尾。一般情况下，你是想让那个合成整个循环起来，所以找到有画面的最后一帧（也就是有关键帧的前一帧）。然后，打上关键帧（用秒表图标左侧那个“在当前时间添加或移除关键帧”）：
+添加时间重映射后，你需要手动寻找你想循环的时间范围的出点，也就是循环的结尾。一般情况下，你是想让那个合成整个循环起来，所以找到有画面的最后一帧（也就是有关键帧的前一帧）。然后，打上关键帧（单击秒表图标左侧的菱形“◇在当前时间添加或移除关键帧”）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-92e3355ec94ee5aa13a794ec9307cc77.jpg)
 
@@ -229,7 +229,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 如果你想导出GIF动画，就直接看我的[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)。
 
-如果只是导出为一段视频，那就要记得Alpha通道的事情。因为你有可能需要有着透明背景的视频，所以需要使用支持RGB+Alpha的格式与编码器。
+如果只是导出为一段视频，那就要记得Alpha通道的事情。因为你有可能需要有着透明背景的视频，所以需要使用支持RGB+Alpha的格式与编码器。这里推荐使用GoPro CineForm编码QuickTime格式进行导出。
 
 ----
 
