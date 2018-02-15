@@ -107,7 +107,7 @@
 
 <br/>
 
-接着，《[MG实用技巧：Loop循环表达式运用|平面|教程|D27\_ - 原创文章 - 站酷 (ZCOOL)](http://www.ui.cn/detail/163636.html)》：
+接着，《[MG实用技巧：Loop循环表达式运用|平面|教程|D27\_ - 原创文章 - 站酷 (ZCOOL)](http://www.zcool.com.cn/article/ZMzk3OTM2.html)》：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-c6ca6839b3118279cea793169862bf99.gif)
 
