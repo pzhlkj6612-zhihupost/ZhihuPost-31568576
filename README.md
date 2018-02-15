@@ -14,7 +14,7 @@
 |-|:-:|
 | 编写 | O |
 | Alpha | O |
-| Beta | X |
+| Beta | O |
 | Gamma | X |
 | Release | X |
 | 发布到知乎 | X |

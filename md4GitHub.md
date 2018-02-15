@@ -333,6 +333,10 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 [@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994)提供了全文检查；
 
+本文Beta之前：
+
+[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d)提供了全文检查；
+
 <br/>
 
 [@墨子 2200MHz](http://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
