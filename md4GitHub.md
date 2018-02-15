@@ -193,7 +193,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-拖一个合成到另一个更长的合成里，然后右击代表那段合成的图层-`时间`-`启用时间重映射`（Ctrl+Alt+T）：
+将要循环的合成放入另一个更长的合成里，然后右击代表那段合成的图层-`时间`-`启用时间重映射`（Ctrl+Alt+T）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-e686b88be0c84cac3939c28cf1cb3c3a.jpg)
 
