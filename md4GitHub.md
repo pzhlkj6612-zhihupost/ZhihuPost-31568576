@@ -302,7 +302,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 * 待更新的
 
-暂无
+关键帧循环，图表编辑器，显示表达式对应的数值变化。
 
 <br/>
 
@@ -350,6 +350,6 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-修改于：18:34 2018/02/16
+修改于：18:20 2018/02/17
 
 禁止转载。
