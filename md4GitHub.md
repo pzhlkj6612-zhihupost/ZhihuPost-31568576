@@ -19,7 +19,7 @@
 注意：
 
 * 本文可能不会持续更新；
-* 我仅在`Windows 10`下的`Adobe After Effects CC2015.3/CC2017`对本文内容做了简要测试；
+* 我仅在`Windows 10`下的`Adobe After Effects CC2015.3/CC2017/CC2018`对本文内容做了简要测试；
 * 所有方法均由我从各个地方习得并测试，仅供参考，并不一定是最佳选择；
 * 本文并不适合在小屏幕终端上阅读；
 * 以下内容有难度，请你务必耐心；
@@ -85,7 +85,9 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3919ed6694523337330ae4d95417fe74.jpg)
 
-注意，这个教程在“导出GIF”那一块略过了一些要点，也有一些不正确的地方。关于导出GIF，可以查看我的文章《[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)》。
+你应该从这个教程里学到如何将一段视频以尽量和谐的方式循环起来。
+
+不过要注意，教程在“导出GIF”部分有不正确的地方：向Ps导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终GIF的“播放速度”较原素材加快了一倍。关于用Ps导出GIF，可以查看我的“知乎文章31567795《从Ae导出GIF的一些方法》”中的“[用Ps、AME、Pr辅助Ae导出GIF](https://github.com/pzhlkj6612/ZhihuPost-31567795/blob/master/md4GitHub.md#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)”部分。
 
 <br/>
 
