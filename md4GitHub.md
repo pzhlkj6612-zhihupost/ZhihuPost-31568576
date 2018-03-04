@@ -49,13 +49,13 @@
 
 <br/>
 
-文中用到的视频素材来自：《[50帧又何妨（25FPS已重传）\(2\)](https://www.bilibili.com/video/av9198307/#page=2)》
+文中用到的视频素材主要来自：《[50帧又何妨（25FPS已重传）\(2\)](https://www.bilibili.com/video/av9198307/#page=2)》
 
 ----
 
 # 可以用循环做什么
 
-比如：
+例如：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-785b9198f9bc33fa7f569b1df1ab756c.jpg)
 
@@ -67,11 +67,11 @@
 
 <br/>
 
-再比如：
+还有：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f03e4fad7249035dc2410a6a89630267.gif)
 
-制作这段动画，我使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)；
+（这段动画使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)）
 
 经过调整，这段动画被制成了能够循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们所共有的思想，能指导你做出较高质量的循环动画。
 
@@ -259,8 +259,8 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 # 注意事项
 
-* Ae中的表达式并不是标准的JS，而是**J**ava**S**cript e**X**tension(JSX)，为了利于在Ae中进行对应，JSX的语法与JS有一些差别，比如某些索引是从**1**开始的（`layer(1)`、`effect(1)`、`propertyGroup(1)`、`key(1)`等等），而不是**0**；
-* JSX的语法较为“宽松”，有一些关键字和符号可以省略不写（软件能自动识别），但作为学习者，尽量还是完整地去写每一行代码。特别的，给属性赋值时要养成带上“左值`value =`”的好习惯；
+* Ae中的表达式并不是标准的JS，而是**J**ava**S**cript e**X**tension(JSX)，为了对应Ae中的元素，JSX的语法与JS有一些差别，例如某些索引是从**1**开始的（`layer(1)`、`effect(1)`、`propertyGroup(1)`、`key(1)`等等），而不是**0**；
+* JSX的语法较为“宽松”，有一些关键字和符号可以省略不写（软件能自动识别），但作为学习者，尽量还是完整地去写每一行代码。特别的，给属性赋值时要养成带上“左值`value = `”的好习惯；
 * 有了好习惯，一旦你要开始查错（Debug），或者读别人的代码，效率就会比较高了；
 * 最后，学习英语、编程，益处很大。
 
