@@ -328,19 +328,13 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 ----
 
-本文Alpha之前：
+本文章：
 
-[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994)提供了全文检查；
+[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 提供了全文检查；
 
-本文Beta之前：
+[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 提供了全文检查；
 
-[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d)提供了全文检查；
-
-本文Gamma之前：
-
-[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d)提供了全文检查；
-
-<br/>
+[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
 
 [@墨子 2200MHz](http://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
 
@@ -352,6 +346,6 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-修改于：18:20 2018/02/17
+修改于：19:14 2018/03/04
 
 禁止转载。
