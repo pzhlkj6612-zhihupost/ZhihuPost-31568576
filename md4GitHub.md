@@ -316,11 +316,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 本文章：
 
-[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 提供了全文检查；
-
-[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 提供了全文检查；
-
-[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
+[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 、[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
 
 [@陈璇](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了大量建议；
 
