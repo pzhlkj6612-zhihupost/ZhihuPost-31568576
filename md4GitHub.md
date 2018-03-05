@@ -338,6 +338,8 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 [@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
 
+<br/>
+
 [@墨子 2200MHz](http://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
 
 <br/>
@@ -348,6 +350,6 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-修改于：19:14 2018/03/04
+修改于：16:56 2018/03/05
 
 禁止转载。
