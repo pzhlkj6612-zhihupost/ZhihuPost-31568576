@@ -93,13 +93,13 @@
 
 首先可以看《[实用AE表达式推荐（二） - 知乎](https://zhuanlan.zhihu.com/p/27601294)》的“**六、LOOPIN&LOOPOUT**”节，做一个简单了解：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-5f3eb9884b90c5ae578a27bda9d7bad2.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-70ec1531ebad76ef7ed8b65693f9fd80.gif)
 
 <br/>
 
 接着，《[MG实用技巧：Loop循环表达式运用|平面|教程|D27\_ - 原创文章 - 站酷 (ZCOOL)](http://www.zcool.com.cn/article/ZMzk3OTM2.html)》：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-c6ca6839b3118279cea793169862bf99.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-441a90e2078ae2be92bcd84774596481.gif)
 
 顺便说一句，这个教程如果最终能够循环起来（一点点调整）就很好看了；
 
