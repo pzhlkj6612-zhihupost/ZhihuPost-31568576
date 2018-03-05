@@ -241,7 +241,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-4453de6812e1a8c0a7fd81121bd8c2cb.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-4addcb76287dbba951f2413096c33e9e.gif)
 
 [【小莫讲AE】根本停不下来的旋转背景\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av12351097/)
 
