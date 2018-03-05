@@ -57,7 +57,7 @@
 
 例如：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-785b9198f9bc33fa7f569b1df1ab756c.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f29e5dd565d9b8fa6ebdce909a414ffc.jpg)
 
 《[【雷军/初音】New Friend\_鬼畜调教\_鬼畜\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av8530045/)》
 
@@ -81,9 +81,9 @@
 
 * 通过剪辑与合成，做出循环播放的GIF动画
 
-《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e)：
+《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e) ：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3919ed6694523337330ae4d95417fe74.jpg)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f93300085f054216d5f7885b0752e255.jpg)
 
 你应该从这个教程里学到如何将一段视频以尽量和谐的方式循环起来。
 
