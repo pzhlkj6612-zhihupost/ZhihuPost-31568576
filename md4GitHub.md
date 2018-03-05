@@ -57,17 +57,7 @@
 
 例如《[【雷军/初音】New Friend\_鬼畜调教\_鬼畜\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av8530045/)》中的：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-1c9f49b2bbdba79183268c792aeabd09.gif)
-
-<br/>
-
-或者：
-
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f03e4fad7249035dc2410a6a89630267.gif)
-
-（这段动画使用了[PluginEverything](https://videohive.net/user/plugineverything)出品的[Deep Glow](https://videohive.net/item/deep-glow/11008714)和[aescripts](https://aescripts.com/)出品的[AutoCircularMotion](https://aescripts.com/autocircularmotion/)）
-
-经过调整，这段动画被制成了能够循环播放的GIF动图，但要注意，该动画的“循环”的实现，与接下来要介绍的方法关系不大。不过，它们所共有的思想，能指导你做出较高质量的循环动画。
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-cdafaa6d9c442a1aa63980d8a4720301.gif)
 
 ----
 
