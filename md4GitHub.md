@@ -107,7 +107,7 @@
 
 如果前边的你都跟着做了，那么这里还有一个更高级的教程：《[AE 表达式应用——萤火虫-UI中国-专业用户体验设计平台](http://www.ui.cn/detail/163636.html)》：
 
-![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-750dfafa2ad5253c04472bce903110a5.gif)
+![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-c8deead81712fbbe6890a94943b36b47.gif)
 
 ----
 
