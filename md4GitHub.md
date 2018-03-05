@@ -322,6 +322,8 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 [@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
 
+[@陈璇](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了大量建议；
+
 <br/>
 
 [@墨子 2200MHz](http://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
