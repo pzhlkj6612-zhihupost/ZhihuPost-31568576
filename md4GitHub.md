@@ -72,7 +72,7 @@
 
 你应该从这个教程里学到如何将一段视频以尽量和谐的方式循环起来。
 
-不过要注意，教程在“导出 GIF”部分有不正确的地方：向 Ps 导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终 GIF 的“播放速度”较原素材加快了一倍。关于用 Ps 导出 GIF，可以查看我的“知乎文章31567795《从 Ae 导出 GIF 动画的一些方法》”中的“[用 Ps、AME、Pr 辅助 Ae 导出 GIF](https://github.com/pzhlkj6612/ZhihuPost-31567795/blob/master/md4GitHub.md#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)”部分。
+不过要注意，教程在“导出 GIF”部分有不正确的地方：向 Ps 导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终 GIF 的“播放速度”较原素材加快了一倍。关于用 Ps 导出 GIF，可以查看我的“知乎文章31567795《从 Ae 导出 GIF 动画的一些方法》”中的“[用 Ps、AME、Pr 辅助 Ae 导出 GIF](https://github.com/pzhlkj6612/ZhihuPost-31567795/blob/master/md4GitHub.md#%E7%94%A8-psamepr-%E8%BE%85%E5%8A%A9-ae-%E5%AF%BC%E5%87%BA-gif)”部分。
 
 <br/>
 
