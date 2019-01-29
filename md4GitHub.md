@@ -10,7 +10,7 @@
 
 [https://www.zhihu.com/question/58159898/answer/167682476](https://www.zhihu.com/question/58159898/answer/167682476)
 
-本文章也存在于GitHub仓库：
+本文章也存在于 GitHub 仓库：
 
 [https://github.com/pzhlkj6612/ZhihuPost-31568576](https://github.com/pzhlkj6612/ZhihuPost-31568576)
 
@@ -18,8 +18,8 @@
 
 注意：
 
-* 本文可能不会持续更新；
-* 我仅在`Windows 10`下的`Adobe After Effects CC2015.3/CC2017/CC2018`对本文内容做了简要测试；
+* 本文不会持续更新，所以内容是过时的；
+* 我仅在 Windows 10 下的 Adobe After Effects CC 2015.3/CC 2017/CC 2018 对本文内容做了简要测试；
 * 所有方法均由我从各个地方习得并测试，仅供参考，并不一定是最佳选择；
 * 本文并不适合在小屏幕终端上阅读；
 * 以下内容有难度，请你务必耐心；
@@ -29,23 +29,24 @@
 
 # 目录
 
-* [概述](#%E6%A6%82%E8%BF%B0)
-* [可以用循环做什么](#%E5%8F%AF%E4%BB%A5%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%81%9A%E4%BB%80%E4%B9%88)
-* [先看教程](#%E5%85%88%E7%9C%8B%E6%95%99%E7%A8%8B)
-* [复习与补充](#%E5%A4%8D%E4%B9%A0%E4%B8%8E%E8%A1%A5%E5%85%85)
-* [导出无限循环的动画](#%E5%AF%BC%E5%87%BA%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF%E7%9A%84%E5%8A%A8%E7%94%BB)
-* [你还可以尝试...](#%E4%BD%A0%E8%BF%98%E5%8F%AF%E4%BB%A5%E5%B0%9D%E8%AF%95)
-* [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
-* [注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
-* [未解决的问题](#%E6%9C%AA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98)
-* [推荐](#%E6%8E%A8%E8%8D%90)
-* [结尾](#%E7%BB%93%E5%B0%BE)
+- [目录](#%E7%9B%AE%E5%BD%95)
+- [概述](#%E6%A6%82%E8%BF%B0)
+- [可以用循环做什么](#%E5%8F%AF%E4%BB%A5%E7%94%A8%E5%BE%AA%E7%8E%AF%E5%81%9A%E4%BB%80%E4%B9%88)
+- [先看教程](#%E5%85%88%E7%9C%8B%E6%95%99%E7%A8%8B)
+- [复习与补充](#%E5%A4%8D%E4%B9%A0%E4%B8%8E%E8%A1%A5%E5%85%85)
+- [导出无限循环的动画](#%E5%AF%BC%E5%87%BA%E6%97%A0%E9%99%90%E5%BE%AA%E7%8E%AF%E7%9A%84%E5%8A%A8%E7%94%BB)
+- [你还可以尝试...](#%E4%BD%A0%E8%BF%98%E5%8F%AF%E4%BB%A5%E5%B0%9D%E8%AF%95)
+- [异常处理](#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
+- [注意事项](#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+- [未解决的问题](#%E6%9C%AA%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98)
+- [推荐](#%E6%8E%A8%E8%8D%90)
+- [结尾](#%E7%BB%93%E5%B0%BE)
 
 ----
 
 # 概述
 
-要**导出**无限循环的动画，一般都是想得到能循环播放的GIF动画；但如果仅仅是想让一段视频在另一段视频里循环播放个几百来次，就不需要琢磨GIF那些。网络上已经有许多关于“Ae 循环”的内容了，所以我会先让你学习前辈们的教程，再看后边我做的补充。
+要**导出**无限循环的动画，一般都是想得到能循环播放的 GIF 动画；但如果仅仅是想让一段视频在另一段视频里循环播放个几百来次，就不需要琢磨 GIF 那些。网络上已经有许多关于“Ae 循环”的内容了，所以我会先让你学习前辈们的教程，再看后边我做的补充。
 
 <br/>
 
@@ -63,15 +64,15 @@
 
 # 先看教程
 
-* 通过剪辑与合成，做出循环播放的GIF动画
+* 通过剪辑与合成，做出循环播放的 GIF 动画
 
-《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](http://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e) ：
+《[【中级】和我一起学AE 10\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av11696223/)》，来自[@龙子潇](https://www.zhihu.com/people/4a6f21a3bd3a67aa4594810cfaf3212e) ：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-f93300085f054216d5f7885b0752e255.jpg)
 
 你应该从这个教程里学到如何将一段视频以尽量和谐的方式循环起来。
 
-不过要注意，教程在“导出GIF”部分有不正确的地方：向Ps导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终GIF的“播放速度”较原素材加快了一倍。关于用Ps导出GIF，可以查看我的“知乎文章31567795《从Ae导出GIF的一些方法》”中的“[用Ps、AME、Pr辅助Ae导出GIF](https://github.com/pzhlkj6612/ZhihuPost-31567795/blob/master/md4GitHub.md#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)”部分。
+不过要注意，教程在“导出 GIF”部分有不正确的地方：向 Ps 导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终 GIF 的“播放速度”较原素材加快了一倍。关于用 Ps 导出 GIF，可以查看我的“知乎文章31567795《从Ae导出GIF的一些方法》”中的“[用 Ps、AME、Pr 辅助 Ae 导出 GIF](https://github.com/pzhlkj6612/ZhihuPost-31567795/blob/master/md4GitHub.md#%E7%94%A8psamepr%E8%BE%85%E5%8A%A9ae%E5%AF%BC%E5%87%BAgif)”部分。
 
 <br/>
 
@@ -129,7 +130,7 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-66aaf9eedda33ba07e2f43ce6f0431be.jpg)
 
-注意，图中的合成只有3小时长，因为[Ae最高只支持3小时长度的合成](https://helpx.adobe.com/cn/after-effects/using/composition-basics.html#composition_settings)，如果你需要更长时间的循环，就将合成裁剪好，导出Ae后再导入Pr，就可以在Pr里制作更长的视频了。
+注意，图中的合成只有 3 小时长，因为[Ae 最高只支持 3 小时长度的合成](https://helpx.adobe.com/cn/after-effects/using/composition-basics.html#composition_settings)，如果你需要更长时间的循环，就将合成裁剪好，导出 Ae 后再导入 Pr，就可以在 Pr 里制作更长的视频了。
 
 <br/>
 
@@ -143,7 +144,7 @@
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-a294897861d6d8caede21452f6aa1cf1.jpg)
 
-现在按住**Alt**，单击`时间重映射`前的秒表，调出表达式编辑器：
+现在**按住 Alt**，单击`时间重映射`前的秒表，调出表达式编辑器：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-3980046a8df79964374f86b4192c3bca.jpg)
 
@@ -159,7 +160,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-4a0b5a81771687c55cce66f37eba44ff.jpg)
 
-最后，改变合成的工作区域，导出视频即可。
+最后，将合成的工作区域调整好，导出视频即可。
 
 <br/>
 
@@ -195,7 +196,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 出现这种现象的原因我还不太清楚，但有规避问题的方法：
 
-添加时间重映射后，你需要手动寻找你想循环的时间范围的出点，也就是循环的结尾。一般情况下，你是想让那个合成整个循环起来，所以找到有画面的最后一帧（也就是有关键帧的前一帧）。然后，打上关键帧（单击秒表图标左侧的菱形“◇在当前时间添加或移除关键帧”）：
+添加时间重映射后，你需要手动寻找你想循环的时间范围的出点，也就是循环的结尾。一般情况下，你是想让那个合成整个循环起来，所以找到有画面的最后一帧（也就是有关键帧的前一帧）。然后，打上关键帧（单击秒表图标左侧的菱形“◇ 在当前时间添加或移除关键帧”）：
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-92e3355ec94ee5aa13a794ec9307cc77.jpg)
 
@@ -203,27 +204,25 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-344ef09abbe7077ecbb1b8cd0bbe9926.jpg)
 
-按住**Alt**，单击`时间重映射`前的秒表，调出表达式编辑器，像之前那样添加`LoopOut`表达式，再延长图层持续时间，搞定。
+**按住 Alt**，单击`时间重映射`前的秒表，调出表达式编辑器，像之前那样添加`LoopOut`表达式，再延长图层持续时间，搞定。
 
 ----
 
 # 导出无限循环的动画
 
-如果你想导出GIF动画，就直接看我的[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)。
+如果你想导出 GIF 动画，就直接看我的[知乎文章31567795《从Ae导出GIF的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)。
 
-如果只是导出为一段视频，那就要记得Alpha通道的事情。因为你有可能需要有着透明背景的视频，所以需要使用支持RGB+Alpha的格式与编码器。这里推荐使用GoPro CineForm编码QuickTime格式进行导出。
+如果只是导出为一段视频，那就别忘了 Alpha 通道。因为你想要的可能是有着透明背景的视频，所以需要使用支持 RGB+Alpha 的格式与编码器。推荐使用 GoPro CineForm 编码 QuickTime 格式进行导出。
 
 ----
 
 # 你还可以尝试...
 
-将下边这两个教程里所做的东西制成流畅的、能够循环播放的GIF动画，就像我这样：
+将下边这两个教程里所做的东西制成流畅的、能够循环播放的 GIF 动画，就像我这样：
 
 * 《[【After Effects教程】干货实用AE实例教程合集【doyoudo出品】\(20\)\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av4612737/index_20.html#page=20)》
 
 ![](https://raw.githubusercontent.com/pzhlkj6612/ZhihuPost-31568576/master/pic_zhimg_com/v2-85794c6d51bb37f2bf77828a3a8fcfb1.gif)
-
-<br/>
 
 * 《[【小莫讲AE】根本停不下来的旋转背景\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av12351097/)》
 
@@ -239,14 +238,14 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 * 是否错误地使用了全角符号；
 * 是否少写了`.`、`""`、`()`、`[]`、`{}`等符号；
 
-更多的还是请你去参考官方文档以及JS标准语法。
+更多的还是请你去参考官方文档以及 JavaScript 语法。
 
 <br/>
 
 # 注意事项
 
-* Ae中的表达式并不是标准的JS，而是**J**ava**S**cript e**X**tension(JSX)，为了对应Ae中的元素，JSX的语法与JS有一些差别，例如某些索引是从**1**开始的（`layer(1)`、`effect(1)`、`propertyGroup(1)`、`key(1)`等等），而不是**0**；
-* JSX的语法较为“宽松”，某些关键字和符号可以省略不写（软件能自动识别），但作为学习者，尽量还是完整地去写每一行代码。特别的，要养成给属性赋值时带上“左值`value = `”的好习惯；
+* Ae 中的表达式并不是标准的 JavaScript，而是 **J**ava**S**cript e**X**tension(JSX)，为了对应 Ae 中的元素，JSX 的语法与 JS 有一些差别，例如某些索引是从**1**开始的（`layer(1)`、`effect(1)`、`propertyGroup(1)`、`key(1)`等等），而不是**0**；
+* JSX 的语法较为“宽松”，某些关键字和符号可以省略不写（软件能自动识别），但作为学习者，尽量还是完整地去写每一行代码。特别的，要养成给属性赋值时带上“左值`value = `”的好习惯；
 * 有了好习惯，一旦你要开始查错（Debug），或者读别人的代码，效率就会比较高了；
 * 最后，学习英语、编程，益处很大。
 
@@ -255,23 +254,23 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 # 未解决的问题
 
 * [The LoopMaker  - aescripts.com](https://aescripts.com/the-loopmaker/)是否好用？
-* Ae中图层在时间轴内的“时间范围”角标，学名叫什么？
+* Ae 中图层在时间轴内的“时间范围”的小三角形标，学名叫什么？
 * [用AE做gif，粒子效果该怎么循环？ - 知乎](https://www.zhihu.com/question/60129024)
 * 合成里的合成，为何时间重映射会空一帧出来？
-* [`时间重映射`的快捷键是RR，添加或删除关键帧的快捷键是Alt+Shift+RR，这怎么按？](https://helpx.adobe.com/cn/after-effects/using/keyboard-shortcuts-reference.html#showing_properties_and_groups_in_the_timeline_panel_keyboard_shortcuts#showing_properties_and_groups_in_the_timeline_panel_keyboard_shortcuts)
+* [`时间重映射`的快捷键是 RR，添加或删除关键帧的快捷键是 Alt+Shift+RR，这怎么按？](https://helpx.adobe.com/cn/after-effects/using/keyboard-shortcuts-reference.html#showing_properties_and_groups_in_the_timeline_panel_keyboard_shortcuts#showing_properties_and_groups_in_the_timeline_panel_keyboard_shortcuts)
 
 ----
 
 # 推荐
 
-* Ae表达式官方文档：[Expression language in After Effects](https://helpx.adobe.com/after-effects/using/expression-language-reference.html)
+* Ae 表达式官方文档：[Expression language in After Effects](https://helpx.adobe.com/after-effects/using/expression-language-reference.html)
 * 专栏推荐：[AE高手秘籍 - After Effects经验技巧干货汇总 - 知乎专栏](https://zhuanlan.zhihu.com/chuangying)
 * 专栏推荐：[Motion Fun - 动效设计，AE脚本，Sketch插件 - 知乎专栏](https://zhuanlan.zhihu.com/motiondesigner)
 
 <br/>
 
-* JvanX的Duik骨骼绑定+GIF动画教程：《[\[MG动画教程\]财神循环动画制作\_野生技术协会\_科技_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)》
-* 老鹰的MG教程：《[01【MG系列教学】MG动画一定要学的AE脚本-1\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3386824/)》
+* JvanX 的 Duik 骨骼绑定 + GIF 动画教程：《[\[MG动画教程\]财神循环动画制作\_野生技术协会\_科技_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3732099/)》
+* 老鹰的 MG 教程：《[01【MG系列教学】MG动画一定要学的AE脚本-1\_野生技术协会\_科技\_bilibili\_哔哩哔哩](https://www.bilibili.com/video/av3386824/)》
 
 <br/>
 
@@ -279,8 +278,8 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-* JS入门教程：[JavaScript 教程 | 菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
-* 给Ae和C4D写脚本和插件的公司：[aescripts](https://aescripts.com/)
+* JavaScript 入门教程：[JavaScript 教程 | 菜鸟教程](http://www.runoob.com/js/js-tutorial.html)
+* 给 Ae 和 C4D 写脚本和插件的公司：[aescripts](https://aescripts.com/)
 * 代码编辑器：[Sublime Text - A sophisticated text editor for code, markup and prose](https://www.sublimetext.com/)
 * 开源社区：[GitHub](https://github.com/)
 
@@ -316,13 +315,13 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 本文章：
 
-[@栗子](http://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 、[@Rainylove](http://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 、[@徐勇智](http://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
+[@栗子](https://www.zhihu.com/people/651b69fa91d4e3f51f2d5a3ad1c5d994) 、[@MGWeysong](https://www.zhihu.com/people/340e2f329dada7c984bdf350f05f816d) 、[@徐勇智](https://www.zhihu.com/people/53fdf1ae511ba1280c742c5f949cbd4d) 提供了全文检查；
 
-[@陈璇](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了大量建议；
+[@Sakura286](https://www.zhihu.com/people/b8da5ae8dc4346ae7ec0c88913a67cdf) 提供了大量建议；
 
 <br/>
 
-[@墨子 2200MHz](http://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
+[@墨子 2200MHz](https://www.zhihu.com/people/faf758840a7dfc528c4f620cdddf1460) 测试、整理。
 
 <br/>
 
@@ -332,6 +331,6 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 <br/>
 
-修改于：16:56 2018/03/05
+修改于：17:41 2019/01/29
 
 禁止转载。
