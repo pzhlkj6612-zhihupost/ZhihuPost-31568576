@@ -12,7 +12,7 @@
 
 本文章也存在于 GitHub 仓库：
 
-[https://github.com/pzhlkj6612/ZhihuPost-31568576](https://github.com/pzhlkj6612/ZhihuPost-31568576)
+[https://github.com/pzhlkj6612-zhihupost/ZhihuPost-31568576](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-31568576)
 
 <br/>
 
@@ -72,7 +72,7 @@
 
 你应该从这个教程里学到如何将一段视频以尽量和谐的方式循环起来。
 
-不过要注意，教程在“导出 GIF”部分有不正确的地方：向 Ps 导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终 GIF 的“播放速度”较原素材加快了一倍。关于用 Ps 导出 GIF，可以查看我的“知乎文章31567795《从 Ae 导出 GIF 动画的一些方法》”中的“[用 Ps 配合 Ae 导出 GIF](https://github.com/pzhlkj6612/ZhihuPost-31567795/blob/2f83f90dc73376bf754ae817a27a422bfe6809c5/md4GitHub.md#%E7%94%A8-ps-%E9%85%8D%E5%90%88-ae-%E5%AF%BC%E5%87%BA-gif)”部分。
+不过要注意，教程在“导出 GIF”部分有不正确的地方：向 Ps 导入视频时进行了“丢帧”（这并不是官方术语），但之后却没有做处理，导致最终 GIF 的“播放速度”较原素材加快了一倍。关于用 Ps 导出 GIF，可以查看我的“知乎文章31567795《从 Ae 导出 GIF 动画的一些方法》”中的“[用 Ps 配合 Ae 导出 GIF](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-31567795/blob/2f83f90dc73376bf754ae817a27a422bfe6809c5/md4GitHub.md#%E7%94%A8-ps-%E9%85%8D%E5%90%88-ae-%E5%AF%BC%E5%87%BA-gif)”部分。
 
 <br/>
 
@@ -210,7 +210,7 @@ value = loopOut(Type = "cycle", numKeyframes = 0);
 
 # 导出无限循环的动画
 
-如果你想导出 GIF 动画，就直接看我的[知乎文章31567795《从 Ae 导出 GIF 动画的一些方法》](https://github.com/pzhlkj6612/ZhihuPost-31567795)。
+如果你想导出 GIF 动画，就直接看我的[知乎文章31567795《从 Ae 导出 GIF 动画的一些方法》](https://github.com/pzhlkj6612-zhihupost/ZhihuPost-31567795)。
 
 如果只是导出为一段视频，那就别忘了 Alpha 通道。因为你想要的可能是有着透明背景的视频，所以需要使用支持 RGB+Alpha 的格式与编码器。推荐使用 GoPro CineForm 编码 QuickTime 格式进行导出。
 
